@@ -95,3 +95,8 @@ figure { margin: 0; }
   max-height: 450px;
   object-fit: cover;
 }
+
+/* Tabellstil */
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--line); }
+
