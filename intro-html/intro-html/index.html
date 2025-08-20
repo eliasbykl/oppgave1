@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Om meg</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Om meg</h1>
+      <p>hei jeg heter elias og jeg liker og sove lenge.</p>
+      <nav aria-label="Hurtiglenker">
+        <a href="#intro">Introduksjon</a>
+        <a href="#skole">Skole</a>
+        <a href="#hobbyer">Hobbyer</a>
+        <a href="#erfaring">Erfaring</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2>Introduksjon</h2>
+        <p>Hei! Jeg heter <strong>elias</strong>. Jeg er <strong>17</strong> år og bor i <strong>hellemyr</strong>.</p>
+        <p>Jeg er interessert i <strong>sport trening og programering</strong> og ønsker å lære mer om <strong>livet</strong>.</p>
+      </section>
+
+      <section id="skole">
+        <h2>skole</h2>
+        <ul>
+          <li>Skole: tangen videregående skole</li>
+          <li>Linje/fag: IT</li>
+          <li>Favorittfag: vet ikke enda</li>
+        </ul>
+      </section>
+
+      <section id="hobbyer">
+        <h2>Hobbyer</h2>
+        <ul>
+          <li>styrke trening</li>
+          <li>sport</li>
+          <li>programering</li>
+        </ul>
+      </section>
+
+      <section id="erfaring">
+        <h2>Erfaring</h2>
+        <ul>
+          <li>porsche – har jobbet der i en uke som en mikaniker.</li>
+          <li>clas ohlson – jobba der i nesten ett år og fikk god erfaring fra det.</li>
+          <li>ai prosjekt – har vært med på å lage ai videor i en posjekt peridoe med et team.</li>
+        </ul>
+      </section>
+
+      
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> elias</p>
+    </footer>
+
+    <script>
+      const y = new Date().getFullYear();
+      const el = document.getElementById('year');
+      if (el) el.textContent = y;
+    </script>
+  </body>
+  </html>
+
+
